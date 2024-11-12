@@ -1,9 +1,14 @@
-<!-- Cards with media area -->
 <mat-card class="card-depoimento">
-        <img src="https://material.angular.io/assets/img/examples/shiba2.jpg" >
-    <mat-card-content>
-      {{longText}}
-      {{clientName}}
-    </mat-card-content>
-  </mat-card>
-  
+  <img
+    src="assets/imagens/avatar3.png"
+    alt="Avatar da pessoa autora do depoimento"
+  />
+  <mat-card-content>
+    <ul>
+      <li>{{ depoimento }}</li>
+      <strong
+        ><li>{{ autoria }}</li></strong
+      >
+    </ul>
+  </mat-card-content>
+</mat-card>
