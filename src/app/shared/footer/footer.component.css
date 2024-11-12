@@ -1,0 +1,26 @@
+footer {
+    background-color: #1D1B20;
+    color: white;
+    padding: 40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 250px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.redes {
+    text-align: center;
+}
+
+.redes img {
+    margin: 0 5px;
+}
