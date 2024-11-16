@@ -18,7 +18,6 @@
   
   .modal .selecao-idade ul {
     list-style-type: none;
-    margin: 25px;
     padding: 0;
   }
   
@@ -39,10 +38,14 @@
   }
   
   .modal .selecao-categoria {
-    margin-top: 32px;
+    margin: 32px 0;
     color: #1D1B20;
   }
   
+  .modal .selecao-categoria h3 {
+    margin-bottom: 0;
+  }
+
   .modal .modal-actions {
     display: flex;
     justify-content: center;
@@ -65,9 +68,19 @@
   }
 
   .viajante-subtitulo {
-    font-weight: 'semibold';
+    font-weight: 700 !important;
   }
-  
-  .mat-button {
-    width: 50%;
+
+  .modal-buttons {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+  }
+
+  .modal-buttons button {
+    flex-grow: 1;
+  }
+
+  .modal-buttons button:first-child {
+    background-color: #E8DEF8;
   }
